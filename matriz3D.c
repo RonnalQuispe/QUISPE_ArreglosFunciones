@@ -47,8 +47,8 @@ int main() {
     scanf("%d", &z);
     int tresD[x][y][z];
 
-    inicializarMatriz(x, y, z, tresD);
-    imprimirMatriz(x, y, z, tresD);
+    inicializarMatriz(x, y, z, tresD);// llama a las matrices generadas 
+    imprimirMatriz(x, y, z, tresD);// imprime la matriz total 
 
     return 0;
 }

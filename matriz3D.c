@@ -19,6 +19,20 @@ void inicializarMatriz(int x, int y, int z, int tresD[x][y][z]) {
 
 
 }
+void imprimirMatriz(int x, int y, int z, int tresD[x][y][z]) {
+    // Imprimir todos los elementos de la matriz 3D
+    printf("Elementos del arreglo tridimensional:\n");
+    for (int i = 0; i < x; i++) {
+        for (int j = 0; j < y; j++) {
+            for (int k = 0; k < z; k++) {
+                printf("%d ", tresD[i][j][k]);
+            }
+            printf("\n");
+        }
+        printf("\n");
+    }
+}
+
 
 
 

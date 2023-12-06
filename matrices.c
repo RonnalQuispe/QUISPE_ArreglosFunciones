@@ -58,6 +58,15 @@ int main()
     }
     sumatriz(fila, columna, matrizA, matrizB, suma);// llamamos a la funcion creada al inicio del programa 
 
-    
+    printf("\nLa suma de matriz 1 y matriz 2 es:\n");
+    for (i = 0; i < fila; i++)
+    {
+        for (j = 0; j < columna; j++)
+        {
+            printf("%d ", suma[i][j]);// imprimimos la suma de la matriz A y B 
+        }
+        printf("\n"); // salto de linea 
+    }
+
     return 0;
 }

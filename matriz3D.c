@@ -9,7 +9,15 @@ void inicializarMatriz(int x, int y, int z, int tresD[x][y][z]) {
             }
         }
     }
-    
+    // Inicializar la ultima matriz en unos
+    for (int j = 0; j < y; j++) {
+        for (int k = 0; k < z; k++) {
+            tresD[x - 1][j][k] = 1;// "x-1" es la ultima matriz y esa se inicializa en 1
+        }
+    }
+
+
+
 }
 
 
